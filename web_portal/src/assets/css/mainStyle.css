@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: "Roboto", sans-serif !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.loginBtn {
+    min-width: 90px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2.5;
+    height: auto;
+    border-radius: 10px;
+    background: #1715B3 ;
+    border: 1px solid #1715B3;
+    margin-right: 10px;
+    color: white;
+}
+
+.regiBtn {
+    min-width: 90px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2.5;
+    height: auto;
+    border-radius: 10px;
+    background: red ;
+    border: 1px solid red;
+    color: white;
+}
+
+.emplyBtn {
+    min-width: 90px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2.5;
+    height: auto;
+    border-radius: 10px;
+    background: transparent ;
+    border: none;
+}
+
+.emplyBtn:hover {
+    background: transparent !important;
+    color: #1715B3 !important;
+}
